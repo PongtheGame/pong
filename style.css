@@ -6,8 +6,8 @@
 
 header
 {
-    background-image: url(2560x1440-brandeis-blue-solid-color-background.jpg);
-    height: 1000vh;
+    background-image: url(1770519.jpg);
+    height: 350vh;
     background-size: cover;
     background-position: center;
 }
@@ -16,8 +16,8 @@ header
 {
     float: left;
     list-style: none;
-    margin-top: 300px;
-    margin-left: 395px;
+    margin-top: 500px;
+    margin-left: 608px;
 }
 
 .main-nav li
@@ -32,7 +32,7 @@ header
     text-decoration: none;
     padding: 5px 20;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .main-nav li.active a
@@ -50,9 +50,9 @@ header
 {
     position: absolute;
     width: 120px;
-    margin-left: 350;
-    margin-top: 0;
-    font-size: 50;
+    margin-left: 462;
+    margin-top: 70;
+    font-size: 100;
 }
 
 h1
@@ -67,8 +67,8 @@ h1
 {
     position: absolute;
     width: 120px;
-    margin-left: 435;
-    margin-top: 100;
+    margin-left: 680;
+    margin-top: 270;
     font-size: 15;
 }
 
@@ -83,9 +83,10 @@ h2
 .PONG
 {
     position: absolute;
-    width: 120px;
-    margin-left: 435;
-    margin-top: 600;
+    width: 500px;
+    margin-left: 490;
+    margin-top: 700;
+    font-size: 40;
 }
 
 h3
@@ -100,9 +101,9 @@ h3
 {
     position: absolute;
     width: 120px;
-    margin-left: 435;
-    margin-top: 1200;
-    font-size: 30;
+    margin-left: 650;
+    margin-top: 1500;
+    font-size: 50;
 }
 
 h4
@@ -120,7 +121,7 @@ h5
     text-transform: unset;
     width: 500px;
     font-size: 20;
-    margin-left: -191;
+    margin-left: -165;
 }
 
 h6
@@ -130,7 +131,9 @@ h6
     text-align: center;
     width: 500px;
     font-size: 15;
-    margin-left: -192;
-    margin-top: 20;
+    margin-left: -165;
+    margin-top: -380;
 
 }
+
+

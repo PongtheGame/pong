@@ -1,7 +1,7 @@
 function setup() {
     var cnv = createCanvas(400, 400);
     // deze functie is nodig om een opzet te creëren
-    cnv.position(295, 770);
+    cnv.position(538, 900);
 };
 
 new p5()
