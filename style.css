@@ -67,7 +67,7 @@ h1
 {
     position: absolute;
     width: 120px;
-    margin-left: 680;
+    margin-left: 685;
     margin-top: 270;
     font-size: 15;
 }
@@ -135,5 +135,16 @@ h6
     margin-top: -380;
 
 }
+
+p{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    margin-top: 180;
+    margin-left: 615;
+    font-size: 20px;
+}
+
 
 

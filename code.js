@@ -648,9 +648,9 @@ var drawRulesScreenExtreme = function(){
 // deze functie zorgt ervoor dat de batjes kunnen bewegen tegenover elkaar  
 batjesUpdate = function() {
     var stepSize = 4
-    if (keyIsDown(79) == true) { // pijltje omhoog
+    if (keyIsDown(79) == true) { // o
         batjeB.snelheid = -stepSize;
-    } else if (keyIsDown(76) == true) { // pijltje omlaag
+    } else if (keyIsDown(76) == true) { // l
         batjeB.snelheid = stepSize;
     } else {
         batjeB.snelheid = 0;
@@ -1152,10 +1152,10 @@ keyPressed = function(){
         drawPlayButton();
         drawPractiseButton();
         drawRules(); }
-    else if(keyCode === 27 && currentScene === 2 || currentScene === 3 || currentScene === 4){
+    else if(keyCode === 27 && currentScene === 2 || keyCode === 27 && currentScene === 3 || keyCode === 27 && currentScene === 4){
         currentScene = 1;
     }
-    else if(keyCode === 27 && currentScene === 11 || currentScene === 12){
+    else if(keyCode === 27 && currentScene === 11 || keyCode === 27 && currentScene === 12){
         currentScene = 10;
     }
     else if(keyCode === 66 && surpriseBart === false){
@@ -1199,6 +1199,7 @@ function draw() {
         drawBackButton();
         drawScoreBoardPractise();
         drawBatjeB();
+        batjesUpdate();
     }
     if (currentScene === 10) {
         drawTitleScreenExtreme();
