@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header
+body
 {
     background-image: url(1770519.jpg);
     height: 350vh;
@@ -46,12 +46,58 @@ header
     border: 1px solid white;
 }
 
+.menu-nav{
+    float: left;
+    list-style: none;
+    margin-top: 850px;
+    margin-left: -850px;
+}
+
+.menu-nav2{
+    float: left;
+    list-style: none;
+    margin-top: 1730px;
+    margin-left: -850px;
+}
+
+.menu-nav li{
+    display: block;
+}
+
+.menu-nav2 li{
+    display: block;
+}
+
+.menu-nav li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.menu-nav2 li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.menu-nav li.active a{
+    border: 1px solid white;
+}
+
+.menu-nav2 li.active a{
+    border: 1px solid white;
+}
+
 .title
 {
     position: absolute;
     width: 120px;
     margin-left: 462;
-    margin-top: 70;
+    margin-top: 80;
     font-size: 100;
 }
 
@@ -99,7 +145,8 @@ h3
 
 .ruleSet
 {
-    position: absolute;
+    /*position: absolute;*/
+    float:left;
     width: 120px;
     margin-left: 650;
     margin-top: 1500;
@@ -108,35 +155,15 @@ h3
 
 h4
 {
+    position: center;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 120px;
+    margin-top: -320;
+    margin-left: -5;
 }
 
-h5
-{
-    position: center;
-    text-align: center;
-    text-transform: unset;
-    width: 500px;
-    font-size: 20;
-    margin-left: -165;
-}
-
-h6
-{
-    color: white;
-    position: center;
-    text-align: center;
-    width: 500px;
-    font-size: 15;
-    margin-left: -165;
-    margin-top: -380;
-
-}
-
-p{
+.creators{
     position: absolute;
     color: white;
     font-family: serif;
@@ -146,5 +173,156 @@ p{
     font-size: 20px;
 }
 
+.rulesSetPlayer1{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 1000;
+    margin-left: 160;
+}
 
+.controlsW{
+    position: absolute;
+    color: orange;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 1050;
+    margin-left: 130;
+}
 
+.controlsWMeaning{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    margin-top: 1060;
+    margin-left: 170;
+}
+
+.controlsS{
+    position: absolute;
+    color: orange;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 1100;
+    margin-left: 130;
+}
+
+.controlsSMeaning{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    margin-top: 1110;
+    margin-left: 170;
+}
+
+.rulesSetPlayer2{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 1000;
+    margin-left: 1200;
+}
+
+.controlsO{
+    position: absolute;
+    color: orange;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 1050;
+    margin-left: 1350;
+}
+
+.controlsOMeaning{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    margin-top: 1060;
+    margin-left: 1270;
+}
+
+.controlsL{
+    position: absolute;
+    color: orange;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 1100;
+    margin-left: 1350;
+}
+
+.controlsLMeaning{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    margin-top: 1110;
+    margin-left: 1250;
+}
+
+.otherControls{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 1200;
+    margin-left: 160;
+}
+
+.controlsE{
+    position: absolute;
+    color: orange;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 1250;
+    margin-left: 130;
+}
+
+.controlsEMeaning{
+    position: absolute;
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+    margin-top: 1260;
+    margin-left: 170;
+}
+
+.aboutquote{
+    position: absolute;
+    color: black;
+    font-family: serif;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 1900;
+    margin-left: 160;
+}
+
+.abouttext{
+    position: absolute;
+    color:white;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 2000;
+    margin-left: 535;
+}
+
+.abouttext2{
+    position: absolute;
+    color:white;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 2040;
+    margin-left: 660;
+}
+
+.abouttext3{
+    position: absolute;
+    color:white;
+    font-family: serif;
+    font-size: 10px;
+    margin-top: 2080;
+    margin-left: 683;
+}
